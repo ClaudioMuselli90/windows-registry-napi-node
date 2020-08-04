@@ -1,7 +1,7 @@
 {
-  "name": "windows-registry",
+  "name": "windows-registry-napi",
   "version": "0.1.5",
-  "description": "Read and Write to the Windows registry in-process from Node.js. Easily set application file associations and other goodies & such.",
+  "description": "Read and Write to the Windows registry in-process from Node.js. Easily set application file associations and other goodies & such. Supports Node 10, 12.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CatalystCode/windows-registry-node.git"
+    "url": "git+https://github.com/josemanuelcarretero/windows-registry-napi-node.git"
   },
   "keywords": [
     "Windows",
@@ -48,11 +48,16 @@
       "name": "Rita Zhang",
       "email": "ritazh@microsoft.com",
       "url": "https://ritazh.com"
+    },
+    {
+      "name": "Jose Manuel Carretero",
+      "email": "josemanuelcarreterocuenca@gmail.com",
+      "url": "https://github.com/josemanuelcarretero"
     }
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CatalystCode/windows-registry-node/issues"
+    "url": "https://github.com/josemanuelcarretero/windows-registry-napi-node/issues"
   },
-  "homepage": "https://github.com/CatalystCode/windows-registry-node#readme"
+  "homepage": "https://github.com/josemanuelcarretero/windows-registry-napi-node#readme"
 }

@@ -7,7 +7,7 @@
 var assert = require('assert'),
     windef = require('../../lib/windef'),
     types = require('../../lib/types'),
-    debug = require('debug')('windows-registry'),
+    debug = require('debug')('windows-registry-napi'),
     ref = require('ref-napi');
 
 /*

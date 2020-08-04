@@ -4,7 +4,7 @@
  */
 'use strict';
 require('ref-napi');
-var debug = require('debug')('windows-registry'),
+var debug = require('debug')('windows-registry-napi'),
     assert = require('assert'),
     struct = require('ref-struct-napi'),
     uniontype = require('ref-union-napi'),
