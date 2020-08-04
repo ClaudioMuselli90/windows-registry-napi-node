@@ -1,17 +1,17 @@
 {
-  "name": "windows-registry",
-  "version": "0.1.5",
-  "description": "Read and Write to the Windows registry in-process from Node.js. Easily set application file associations and other goodies & such.",
+  "name": "windows-registry-napi",
+  "version": "0.1.6",
+  "description": "Read and Write to the Windows registry in-process from Node.js. Easily set application file associations and other goodies & such. Supports Node 10, 12.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "ffi": "^2.0.0",
-    "ref": "^1.2.0",
-    "ref-struct": "^1.0.2",
-    "ref-union": "^1.0.0"
+    "ffi-napi": "^2.0.0",
+    "ref-napi": "^1.2.0",
+    "ref-struct-napi": "^1.0.2",
+    "ref-union-napi": "^1.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CatalystCode/windows-registry-node.git"
+    "url": "git+https://github.com/josemanuelcarretero/windows-registry-napi-node.git"
   },
   "keywords": [
     "Windows",
@@ -48,11 +48,16 @@
       "name": "Rita Zhang",
       "email": "ritazh@microsoft.com",
       "url": "https://ritazh.com"
+    },
+    {
+      "name": "Jose Manuel Carretero",
+      "email": "josemanuelcarreterocuenca@gmail.com",
+      "url": "https://github.com/josemanuelcarretero"
     }
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CatalystCode/windows-registry-node/issues"
+    "url": "https://github.com/josemanuelcarretero/windows-registry-napi-node/issues"
   },
-  "homepage": "https://github.com/CatalystCode/windows-registry-node#readme"
+  "homepage": "https://github.com/josemanuelcarretero/windows-registry-napi-node#readme"
 }

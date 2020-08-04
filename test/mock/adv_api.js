@@ -7,8 +7,8 @@
 var assert = require('assert'),
     windef = require('../../lib/windef'),
     types = require('../../lib/types'),
-    debug = require('debug')('windows-registry'),
-    ref = require('ref');
+    debug = require('debug')('windows-registry-napi'),
+    ref = require('ref-napi');
 
 /*
 * Dumb O(n) search for value inside object
