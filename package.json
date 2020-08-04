@@ -1,6 +1,6 @@
 {
   "name": "windows-registry-napi",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Read and Write to the Windows registry in-process from Node.js. Easily set application file associations and other goodies & such. Supports Node 10, 12.",
   "main": "index.js",
   "directories": {
