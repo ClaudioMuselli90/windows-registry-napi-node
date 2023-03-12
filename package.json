@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "ffi-napi": "^2.0.0",
-    "ref-napi": "^1.2.0",
-    "ref-struct-napi": "^1.0.2",
-    "ref-union-napi": "^1.0.0"
+    "@lwahonen/ffi-napi": "^2.0.0",
+    "@lwahonen/ref-napi": "^1.2.0",
+    "ref-struct-napi": "^1.1.1",
+    "ref-union-napi": "^1.0.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
